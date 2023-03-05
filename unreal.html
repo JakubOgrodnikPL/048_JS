@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<!----------HEAD---------->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jakub Ogrodnik - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.3/plyr.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;700&family=Saira:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8dfccec39a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/stylesUnreal.css" />
+</head>
+<!----------BODY---------->
+
+<body>
+
+    <!--------------------------- MENU ------------------------------>
+
+    <div class="menuUnreal" id="top">
+        <a href="/index.html">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Back to main page
+        </a>
+    </div>
+
+    <!--------------------------- WELCOME ------------------------------>
+
+    <img class="unrealLogo" src="/media/Unreal_logo.jpg" alt="">
+
+    <!-------------------------PROJECTS DROPDOWN-------------------------->
+    <div class="wrapperUnreal">
+
+        <div class="collapsible">
+            <input type="checkbox" id="collapsible-head">
+            <label for="collapsible-head">Directional projectile spawning</label>
+            <div class="collapsible-content">
+                <p>
+                    The main goal of this project is to spawn projectiles in the direction player is looking at. The method involves corelation of specific vectors. Project includes some logic function that are nested to make a nice and tidy blueprint chart.
+                </p>
+                <video class="videoUnreal" id="player" playsinline controls autoplay loop data-poster="/path/to/poster.jpg">
+                    <source src="/media/Unreal_1.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+        <div class="collapsible">
+            <input type="checkbox" id="collapsible-head2">
+            <label for="collapsible-head2">Automated test</label>
+            <div class="collapsible-content">
+                <p>
+                    The main goal of this project is to spawn projectiles in the direction player is looking at. The method involves corelation of specific vectors. Project includes some logic function that are nested to make a nice and tidy blueprint chart.
+                </p>
+                <video class="videoUnreal" id="player" playsinline controls autoplay loop data-poster="/path/to/poster.jpg">
+                    <source src="/media/Unreal_2.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+<!------------------BUTTON GO TO TOP---------------------->
+
+<!-- <button class="goToTop" > <a href="#top">Go<br>to<br>top</a> </button> -->
+<div class="menuUnreal goToTop">
+<a href="#top">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    Go to top
+</a>
+<div/>
+
+    <script src="https://cdn.plyr.io/3.7.3/plyr.polyfilled.js"></script>
+    <script src="/js/scriptUnreal.js"></script>
+</body>
+
+</html>
